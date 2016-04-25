@@ -1,5 +1,4 @@
 module.exports = function() {
-
   var cpuCount = api.os.cpus().length;
 
   var workers = [];
@@ -31,7 +30,5 @@ module.exports = function() {
       }
 
     });
-
   });
-
 };
